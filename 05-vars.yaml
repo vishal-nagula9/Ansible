@@ -1,7 +1,7 @@
 - name: variables
   hosts: local
   connection: local
-  var:
+  vars: #vars variables
     COURSE: "Devops With AWS"
     DURATION: 120Hr
     TRAINER: "Vishal Nagula"
