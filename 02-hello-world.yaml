@@ -1,0 +1,6 @@
+- name: hello-world Play book
+  host: web
+  tasks:
+  - name: hello world
+    ansible.builtin.debug:
+      msg: hello world fron ansible play books
