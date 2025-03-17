@@ -12,8 +12,8 @@
   - name: print task level vars
     vars: 
        COURSE: "Devops With Azure"
-    DURATION: 20Hr
-    TRAINER: "Vishal Nagula Devops"
+       DURATION: 20Hr
+       TRAINER: "Vishal Nagula Devops"
     ansible.builtin.debug:
       msg: "This Course is {{COURSE}}, durattion is {{DURATION}} and trainer is {{TRAINER}}"
     
