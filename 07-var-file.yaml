@@ -1,5 +1,5 @@
 - name : variables from file
-  host: local
+  hosts: local
   connection: local
   vars_files:
   - vars.yaml
