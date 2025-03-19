@@ -1,0 +1,15 @@
+- name : variables from file
+  hosts: local
+  connection: local
+  vars_promt: 
+  - name: COURSE
+    promt: please enter values
+  - name: DURATION
+    promt: please enter values
+  - name: TRAINER
+    promt: please enter values
+
+  tasks:
+  - name: print course info from vars file
+    ansible.builtin.debug:
+       msg: "This Course is {{COURSE}}, durattion is {{DURATION}} and trainer is {{TRAINER}}"
